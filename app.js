@@ -75,7 +75,7 @@ function verificarIntento(){
 
         document.getElementById('reiniciar').removeAttribute('disabled');
 
-        asignarTextoElemento('p',`Acertaste en ${intentos} ${(intentos === 1)? 'vez': 'veces'}`);
+        asignarTextoElemento('p',`Acertaste hermoso tocino en ${intentos} ${(intentos === 1)? 'vez': 'veces'}`);
                 
     }else{
         
